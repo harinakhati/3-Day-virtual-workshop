@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(224, 205, 186);
+}
+nav{
+    background-color: #fff; 
+    padding: 20px 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+}
+.rightside{
+    width: 60%;
+}
+.left-side{
+    width: 40%;
+}
+#main-menu{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    gap: 20%;
+}
+#main-menu li{
+    list-style: none;
+}
+.left-side > a {
+    text-decoration: none;
+    color: initial;
+}
+.right-side  a {
+    text-decoration: none;
+    color: initial;
+}
